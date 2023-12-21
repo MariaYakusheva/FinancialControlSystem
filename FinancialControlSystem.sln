@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialControlSystem.UI", "FinancialControlSystem.UI\FinancialControlSystem.UI.csproj", "{D2E8D18E-C561-4CD5-ACAE-74FF4D115CEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialControlSystem.Logic", "FinancialControlSystem.Logic\FinancialControlSystem.Logic.csproj", "{29739B43-DB3E-455E-ACDD-8DDE9D434264}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D2E8D18E-C561-4CD5-ACAE-74FF4D115CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2E8D18E-C561-4CD5-ACAE-74FF4D115CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2E8D18E-C561-4CD5-ACAE-74FF4D115CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29739B43-DB3E-455E-ACDD-8DDE9D434264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29739B43-DB3E-455E-ACDD-8DDE9D434264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29739B43-DB3E-455E-ACDD-8DDE9D434264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29739B43-DB3E-455E-ACDD-8DDE9D434264}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
