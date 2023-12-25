@@ -11,7 +11,8 @@
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
-        <ListBox Grid.Column="1"/>
+        <ListBox Grid.Column="1" SelectionChanged="ListBox_SelectionChanged"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,170,0,0" VerticalAlignment="Top" Height="84" Width="186"/>
 
     </Grid>
 </Window>
