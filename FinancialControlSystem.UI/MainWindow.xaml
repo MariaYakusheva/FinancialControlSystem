@@ -13,5 +13,7 @@
         </Grid.ColumnDefinitions>
         <ListBox x:Name="ListBoxAccount" Grid.Column="1"/>
         <Button Content="Создать счет" HorizontalAlignment="Center" Margin="0,170,0,0" VerticalAlignment="Top" Height="84" Width="186" Click="Button_Click" FontSize="24"/>
+        <TextBox x:Name="TextBoxName" HorizontalAlignment="Left" Margin="147,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="224" Height="28" FontSize="14"/>
+        <Label Content="Название" HorizontalAlignment="Left" Margin="26,38,0,0" VerticalAlignment="Top" Width="116" Height="44" FontSize="22" RenderTransformOrigin="0.537,0.514"/>
     </Grid>
 </Window>
